@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 2px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 400px;
+}
+
+
+nav ul li:last-child {
+    margin-right: 0; 
+  }
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding: 5px 10px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.container {
+    position: fixed;
+    bottom: -4px;
+    left: 5.5px;
+}
+  
+.name-link {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+.under1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+}
+  
+  .under1 h1 {
+    text-align: center;
+}
+
+.font1 {
+    font-family: 'Unbounded';
+    font-size: 42px;
+    margin-bottom: -52px;
+
+}
+
+.font2 {
+    font-family: 'Gasoek One', sans-serif;
+    font-size: 176px;
+    margin-bottom: -50px;
+    font-weight: normal;
+}
+
+
+
+.font4 {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 66.1px;
+    margin-bottom: -22px;
+    
+}
+
+.font5 {
+    font-family: 'Itim', cursive;
+    font-size: 60.75px;
+    margin-bottom: -27px;
+    font-weight: normal;
+}
+
+.font6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 79px;
+    margin-bottom: -10px;
+    font-weight: normal;
+}
+
+.font7 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 53.3px;
+    margin-top: -10px;
+    font-weight: normal;
+}
+
+
+
+
+
